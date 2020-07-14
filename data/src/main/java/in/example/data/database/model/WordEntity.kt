@@ -1,11 +1,11 @@
-package `in`.example.data
+package `in`.example.data.database.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "word_table")
-data class Word(
+data class WordEntity(
     @PrimaryKey
     @ColumnInfo(name = "word")
     val word: String
