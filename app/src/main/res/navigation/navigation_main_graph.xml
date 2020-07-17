@@ -3,9 +3,9 @@
   xmlns:app="http://schemas.android.com/apk/res-auto"
   xmlns:tools="http://schemas.android.com/tools"
   android:id="@+id/navigation_main_graph"
-    app:startDestination="@id/wordFragment">
-    <fragment
-        android:id="@+id/wordFragment"
-        android:name="in.example.cleanarchitecture.view.WordFragment"
-        android:label="WordFragment" />
+  app:startDestination="@id/wordFragment">
+  <fragment
+    android:id="@+id/wordFragment"
+    android:name="in.example.cleanarchitecture.view.WordFragment"
+    android:label="WordFragment" />
 </navigation>
